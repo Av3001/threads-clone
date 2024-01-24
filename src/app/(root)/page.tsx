@@ -1,7 +1,9 @@
-import Image from "next/image";
-
+import { UserButton } from "@clerk/nextjs";
+ 
 export default function Home() {
   return (
-    <main>hello </main>
-  );
+    <div className="h-screen bg-orange-600">
+      Home
+    </div>
+  )
 }
